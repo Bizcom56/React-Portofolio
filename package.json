@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Bizcom56.github.io/React-Portofolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -6,8 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "vercel --prod"
+    "deploy": "gh-pages -d build",
+    "lint": "next lint"
+    
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
